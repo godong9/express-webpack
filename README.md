@@ -16,6 +16,25 @@ Then generate your new project:
 yo express-webpack
 ```
 
+Install dependencies
+
+```bash
+cd ./server && npm install && bower install
+```
+
+Run server
+
+```bash
+gulp
+```
+
+Run server for development
+
+```bash
+gulp watch
+```
+
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.

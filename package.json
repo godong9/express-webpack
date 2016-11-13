@@ -1,6 +1,6 @@
 {
   "name": "generator-express-webpack",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Boilerplate to use ExpressJS, Webpack and Gulp.",
   "homepage": "https://github.com/godong9/express-webpack",
   "author": {
