@@ -1,5 +1,5 @@
 # generator-express-webpack [![NPM version][npm-image]][npm-url]
-> Boilerplate to use ExpressJS, Webpack and Gulp.
+> Boilerplate to use ExpressJS, Webpack, Gulp and Using ES6.
 
 ## Installation
 
