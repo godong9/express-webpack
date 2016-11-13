@@ -1,4 +1,4 @@
-# generator-express-webpack [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-express-webpack [![NPM version][npm-image]][npm-url]
 > Boilerplate to use ExpressJS, Webpack and Gulp.
 
 ## Installation
