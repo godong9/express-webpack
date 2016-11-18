@@ -32,6 +32,10 @@ module.exports = yeoman.Base.extend({
       this.templatePath('server'),
       this.destinationPath('server')
     );
+    this.fs.copy(
+      this.templatePath('server/.bowerrc'),
+      this.destinationPath('server/.bowerrc')
+    );
   },
 
   install: function () {
