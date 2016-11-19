@@ -2,7 +2,7 @@ const log4js = require('log4js');
 const logger = log4js.getLogger('controllers/users');
 const User = require('../models/users');
 
-let userController = {
+let UserController = {
   getUsers: function getUser(req, res, next) {
     let params = {};
     logger.debug(params);
@@ -21,4 +21,4 @@ let userController = {
   }
 };
 
-module.exports = userController;
+module.exports = UserController;
