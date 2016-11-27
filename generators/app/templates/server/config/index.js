@@ -1,5 +1,7 @@
-var _ = require('underscore');
-var envConfig;
+'use strict';
+
+const _ = require('underscore');
+let envConfig;
 
 if (!process.env.NODE_ENV) {
   process.env.NODE_ENV = process.env.NODE_ENV || 'development';
@@ -10,7 +12,8 @@ try {
 } catch(e) {
   envConfig = {};
 }
-var config = _.extend({}, require('./all.js'), envConfig);
+
+let config = _.extend({}, require('./all.js'), envConfig);
 
 /**
  * @returns {Boolean} isDev
